@@ -1,0 +1,60 @@
+.contenedor {
+    display: flex;
+}
+
+.izquierdo {
+    flex: 1;    
+    padding: 10px;
+}
+
+.derecho {
+    flex: 1;
+    padding: 10px;
+}
+
+.campo1 {
+    width: 20rem;
+    margin: 3rem;
+    background-color: rgba(52, 76, 255, 0.678);
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 40, 114);
+}
+.campo2 {
+    width: 20rem;
+    margin: 3rem;
+    background-color: rgba(255, 0, 0, 0.755);
+    border-radius:1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(130, 0, 0);
+}
+
+.ingresoP {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingresoG {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-evenly;
+}
+td{
+    width: 10rem;
+    text-align: center;
+}
+th{
+    width: 10rem;
+}

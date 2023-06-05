@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Intento nuevo de FS3</title>
+</head>
+
+<body>
+    <h1>Presupuesto App</h1>
+    <div class="contenedor">
+        <div class="izquierdo">
+            <div class="campo1">
+                <div class="ingresoP">
+                    <label for="">Ingresa Tu Presupuesto</label>
+                    <input type="number" id="presupuestoI" name="presupuesto">
+                    <button onclick="ingresoP()">Calcular</button>
+                </div>
+            </div>
+            <div class="campo2">
+                <div class="ingresoG">
+                    <label for="">Ingresa El Nombre Del Gasto</label>
+                    <input type="text" id="nGasto" name="nGasto">
+                    <label for="">Ingresa La Cantidad Del Gasto</label>
+                    <input type="number" id="cGasto" name="cGasto">
+                    <button onclick="crearGasto()">Añadir Gasto</button>
+                </div>
+            </div>
+        </div>
+        <div class="derecho">
+            <div class="titulos">
+                <div class="presupuesto">
+                    <p>presupuesto</p>
+                    <p id="presupuesto">0</p>
+                </div>
+                <div class="gasto">
+                    <p>gasto</p>
+                    <p id="gasto">0</p>
+                </div>
+                <div class="saldo">
+                    <p>saldo</p>
+                    <p id="saldo">0</p>
+                </div>
+            </div>
+            <table class="tablaG">
+                <tr>
+                    <th>Gastos</th>
+                    <th>Precio</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
